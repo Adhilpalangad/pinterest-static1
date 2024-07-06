@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    margin: 0;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.first-half{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-right: 600px;
+    
+}
+.first-half svg{
+    height: 50px;
+    width: 30px;
+    margin-left: 10px
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+    margin-left: 7px;
+    float: left;
+}
+.logo1{
+    margin-left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+} 
+.button button{
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    gap: 10px;
+    display: flex;
+    height: 30px;
+    width: 70px;
+}
+.button button:hover{
+    background-color: rgb(220, 218, 215);
+}
+.second-half{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    
+}
+.login{
+    /* margin-right: 15px; */
+    border: 0px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+     
+
+}
+#login1{
+    /* padding-left: 20px; */
+    background-color: red;
+    background-repeat: no-repeat;
+    border-radius: 17px;
+    height: 30px;    
+    width: 50px;
+}
+#signup{
+    background-color: rgb(199, 198, 198);
+    background-repeat: no-repeat;
+    border-radius: 17px;
+    height: 30px;    
+    width: 55px;
+}
+.login button:hover{
+    background-color: brown;
+}
+
+.first1{
+    width: 14.2%;
+    height: 460px;
+    
+}
+.first2{
+    width: 14.2%;
+    height: 290px;
+    
+}
+.first3{
+    width: 14.2%;
+    height: 150px;
+    
+}
+.first4{
+    width: 14.2%;
+    height: 50px;
+    
+}
+.first5{
+    width: 14.2%;
+    height: 150px;
+}
+.first6{
+    width: 14.2%;
+    height: 290px;
+    
+}
+.first7{
+    width: 14.2%;
+    height: 460px;   
+}
+.first-pg{
+    display: flex;
+    align-items: flex-end;
+    height: 621px;
+    gap: 10px;
+    
+}
+.first-text{
+    flex-direction: column;
+}
+.in-bt{
+    width: 100%;
+    height: 100px;
+    background-color: #fffd92;
+    display: flex;
+    justify-content: center;
+
+}
+.in-bt p{
+   font-size: 16px;
+   font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+   ;
+   font-weight: bold;
+  
+
+}
+.in-bt svg{
+    position: absolute;
+    top: 682px;
+    left: 842px;
+}
+.second-pg{
+    height: 700px;
+    width: 100%;
+    background-color: #fffd92;
+}
+.second1{
+    height: 768px;
+    width: 50%;
+    position: relative;
+}
+.inner{
+    
+    width: 537px;
+    height: 611px;
+    position: absolute;
+    left: 116px;
+    position: relative;
+    float: left;
+    
+    
+}
+#center{
+    height: 456px;
+    width: 297.99px;
+    margin-left: 160px;
+}
+.inner2 img{
+    
+    width: 298px;
+    height: 456px;
+    position: absolute;
+    left: 164px;
+    top: 90px;
+
+}
+.inner3 img{
+    width: 178px;
+    height: 216px;
+    position: absolute;
+    right: 0;
+     
+}
+.inner4 img{
+    width: 164px;
+    height: 258px;
+    position: absolute;
+    right: -25px;
+    top: 349px;
+     
+}
+.inner5 img{
+    width: 204px;
+    height: 285px;
+    position: absolute;
+    
+    top: 159px;
+     
+}
+.inner1{
+    width: 298px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 230px;
+    border-radius: 50px;
+    left: 120px;
+}
+.inner1 svg {
+    position: absolute;
+    left: 32px;
+    top: 38px;
+    float: left;
+}
+.inner1 p {
+    position: absolute;
+    left: 70px;
+    top: 12px;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 24px;
+    color: #6e0f3c;
+}
+.second2{
+    height: 768px;
+    width: 50%;
+    position: relative;
+
+}
+.s-inner1{
+    height: 293px;
+    width: 768px;
+    
+    float: left;
+    position: absolute;
+    top: -617px;
+    right: -700px;
+}
+.s-inner1 h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 120px;
+    margin-top: 0;
+    color: #c31952;
+}
+.s-inner1 p{
+    font-size: 24px;
+    margin-left: -14px;
+    text-align: center;
+}
+.s-inner1 button{
+    margin-left: 347px;
+    margin-top: 20px;
+    width: 78px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.s-inner1 button:hover{
+    background-color: #c31952   ;
+}
+/* Mian text of the first page */
+.first-h1{
+    position: absolute;
+
+}
+.get-yr{
+    margin-left: 591px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.get-yr-h1{
+    margin-left: 596px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    color: #518c7b;         
+    
+}
+.thirdpg{
+    width: 100%;
+    height: 790px;
+    background-color: #dafff6;
+    position: relative;
+}
+.third1{
+    width: 50%;
+    height: auto;
+}
+.third12{
+    height: 293px;
+    width: 768px;
+    position: absolute;
+    top: 200px;
+    left: 64px;
+}
+.third12 h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    margin-top: 0;
+    color: #006b6c;
+    margin-bottom: 0;
+}
+.third12 p{
+    font-size: 24px;
+    margin-left: -125px;
+    text-align: center;
+    color: 006b6c;
+}
+.third12 button{
+    margin-left: 272px;
+    margin-top: 4px;
+    width: 78px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.third12 button:hover{
+    background-color: #c31952;
+}
+.third13{
+    height: 768px;
+    position: relative;
+    width: 50%;
+    right: 0;
+    position: absolute;
+}
+.inside{
+    position: absolute;
+    height: 418px;
+    width: 415px;
+    top: 80px;
+    position: relative;
+}
+.inside1{
+    position: absolute;
+    left: 53px;
+    width: 89px;
+    bottom: 301px;
+
+}
+.inside2{
+    height: 127px;
+    bottom: 301px;
+    position: absolute;
+    left: 165px;
+
+}
+.inside3{
+    height: 127px;
+    bottom: 301px;
+    position: absolute;
+    left: 278px;
+
+}
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    position: absolute;
+    margin: 0;
+    top: 150px;
+    color: white;
+    left: 48px;
+
+  }
+.inside-left{
+    position: absolute;
+    right: 0;
+    left: 450px;
+    top: 84px  ;
+    height: 237px;
+    width: 221px;
+}
+.pt-sans-regular-2 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    margin: 0;
+    top: 187px;
+    color: white;
+    left: 480px;
+    right: 0;
+  }
+.inside-small{
+    width: 165px;
+    height: 173px;
+    position: absolute;
+    left: 443px;
+    bottom: 225px;
+}
+.pt-sans-regular-3 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    position: absolute;
+    margin: 0;
+    top: 61%;
+    color: white;
+    left: 460px;
+    right: 0;
+}
+.right-bottom{
+    position: absolute;
+    right: 0;
+    left: 183px;
+    top: 520px  ;
+    height: 237px;
+    width: 221px;
+}
+.pt-sans-regular-4 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    position: absolute;
+    margin: 0;
+    bottom: 4%;
+    color: white;
+    left: 230px;
+    right: 0px;
+}
+.fourpg{
+    width: 100%;
+    height: 727px;
+    background-color: #ffe2eb;
+    
+}
+.four1{
+    width: 50%;
+    height: 727px;
+    background-color: #6e0f3c;
+    position: relative;
+    float: left;
+}
+.fimage1{
+    width: 100%;
+    height: 100%;
+}
+.fimage2{
+    position: absolute;
+    width: 211px;
+    height: 376px;
+    top: 202px;
+    left: 100px;
+    border-radius: 14px;
+}
+.roundimg{
+    top: 522px;
+    left: 71px;
+    width: 96px;
+    height: 96px;
+    position: absolute;
+}
+.p1{
+    position: absolute;
+    top: 568px;
+    left: 183px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.p2{
+    position: absolute;
+    top: 590px;
+    left: 177px;
+    font-family: "PT Sans", sans-serif;
+    /* font-weight: 700; */
+    font-style: normal;
+    color: white;
+}
+.four2{
+    position: relative;
+    width: 50%;
+    height: 729px;
+}
+.textf{
+    height: 272px;
+    width: 484px;
+    
+    position: absolute;
+    top: 185px;
+    left: 900px;
+
+}
+.gead{
+    font-size: 70px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #c83e14;
+}
+.textf p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #c83e14  ;
+    word-spacing: 5px;
+}
+.textf button{
+    position: absolute;
+  left: 217px;
+  top: 321px;
+  background-color: red;
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  color: white;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer a{
+    color: rgb(18, 5, 5);
+    text-decoration: none;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}
+.footer a:hover{
+    color: rgb(165, 162, 162);
+}
